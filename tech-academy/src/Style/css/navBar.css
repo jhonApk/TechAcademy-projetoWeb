@@ -1,0 +1,48 @@
+.navbar{
+    position: fixed;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    transition:all .2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    z-index: 9999;
+
+}
+
+
+.navbar.color-active{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid #dc354638;
+}
+
+.Navbar .Nav-brand, .fw-bold{
+    color: wheat;
+}
+
+
+.navbar .nav-link a{
+    padding: 5px 10px 5px 10px;
+    font-weight: 00;
+    text-decoration: none;
+    color: rgb(175, 171, 171);
+}
+
+.navbar .nav-link a:hover{
+    color: var(--secondary-color);
+}
+
+.navbar .nav-link .active{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.navbar .nav-link .active:hover{
+    color: var(--navbar-color);
+}
+
